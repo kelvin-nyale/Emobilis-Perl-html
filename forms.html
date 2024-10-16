@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>forms</title>
+</head>
+<body>
+<marquee behavior="" direction="">Please fill out this form</marquee>
+<hr>
+<h2>REGISTER HERE</h2>
+<form action="" method="post">
+    <label for="fname">First name</label>
+    <input type="text" id="fname" name="fname" placeholder="First name" required><br><br>
+    <label for="lname">Last name</label>
+    <input type="text" id="lname" name="lname" required><br><br>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required maxlength="16"><br><br>
+    <label for="dob" >Date of Birth</label>
+    <input type="date" id="dob" name="dob" required><br><br>
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender">
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender">
+    <label for="others">Others</label>
+    <input type="radio" id="others" name="gender"><br><br>
+    <label for="course">Course selected</label>
+    <select name="course" id="course">
+        <option value="js">Javascript</option>
+        <option value="an">Android</option>
+        <option value="ai">Artificial Intelligence</option>
+        <option value="ml">Machine Learning</option>
+        <option value="rb">Robotics</option>
+        <option value="cs">Cyber Security</option>
+        <option value="ds">Data Science</option>
+    </select><br><br>
+
+    <label for="upload">Upload a file</label>
+    <input type="file" id="upload" name="upload"><br><br>
+
+    <input type="submit" value="Register Here!">
+</form>
+
+</body>
+</html>
